@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'admin', redirectTo: 'admin/login'},
     { path: 'admin', children: [{ path: 'login', component: LoginComponent }]},
 
+  { path: 'admin/login', component: LoginComponent},
 ];
 
 @NgModule({
