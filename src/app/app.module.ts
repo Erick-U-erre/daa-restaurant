@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { ReservationComponent } from './reservation/reservation.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ReservationComponent } from './reservation/reservation.component';
     HomeComponent,
     MenuComponent,
     ReservationComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
