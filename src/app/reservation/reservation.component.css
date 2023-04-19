@@ -1,0 +1,25 @@
+:host {
+    color: rgb(50, 50, 50);
+    text-align: center;
+    position:absolute;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 5%;
+}
+
+.reservation-card {
+    margin: 20px auto;
+    max-width: 800px;
+    
+  }
+
+.full-width {
+    width: 100%;
+}
+
+
+    mat-card-actions button {
+        margin-left: 10px;
+    }
